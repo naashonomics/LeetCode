@@ -1,8 +1,9 @@
 #Given two binary trees, write a function to check if they are equal or not.
 #Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
 
-
-
+#Divide and conquer(Recursion), time complexity = O(n),
+#n is the number of nodes,
+                                        
 class Solution(object):
     def isSameTree(self, p, q):
         """
